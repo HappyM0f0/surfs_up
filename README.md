@@ -8,7 +8,7 @@ The three key differences in weather between June and December:
 - the count of June temperatures are 1700 where December's count is 1517
 - the avg temp in June is 75 where in December it is 71 
 - the range of June temperatures are between 64 and 85 where in December the range is largers, between 56 and 83
-- ![June Summary](https://github.com/HappyM0f0/surfs_up/blob/main/images/June_description.png)  
+- ![June Summary](https://github.com/HappyM0f0/surfs_up/blob/main/images/June_description.png)
 ![December Summary](https://github.com/HappyM0f0/surfs_up/blob/main/images/Dec_description.png)
 
 
