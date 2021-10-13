@@ -10,9 +10,9 @@ The purpose of this analysis is to gather information on the temperatures during
 ## Results: 
 There is a bulleted list that addresses the three key differences in weather between June and December. (6 pt)
 
-- the count of June temperatures are 1700 where December's count is 1517 
+- the count of June temperatures are 1700 where December's count is 1517
+- the avg temp in June is 75 where in December it is 71 
 - the range of June temperatures are between 64 and 85 where in December the range is largers, between 56 and 83
-- the avg temp in June is 75 where in December it is 71
 - ![June Summary](https://github.com/HappyM0f0/surfs_up/blob/main/images/June_description.png)
 ![December Summary](https://github.com/HappyM0f0/surfs_up/blob/main/images/Dec_description.png)
 
@@ -22,9 +22,13 @@ There is a bulleted list that addresses the three key differences in weather bet
 
 we can look at prcp for these monthes to see if there is a correlation between temp and prcp
 
+```python
+# find and filter prcp for the month of June
+session.query(Measurement.prcp).filter(func.strftime("%m", Measurement.date) == "06")
+```
 large difference in counts can be resolved by selecting a specific station (preferred with the most counts). This will result the overall count number but bring them closer in range.
 
 ```python
-# filter to station USC00519281
+# filter to station to most active station
 filter(Measurement.station == 'USC00519281')
 ```
