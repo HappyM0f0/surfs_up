@@ -1,10 +1,5 @@
 # Surfs Up
-
-For this part of the Challenge, write a report that describes the key differences in weather between June and December and two recommendations for further analysis.
-
-The analysis should contain the following:
-
-## Overview of the analysis: Explain the purpose of this analysis.
+## Overview of the analysis:
 The purpose of this analysis is to gather information on the temperatures during the month of June and December. Finding this summary statistics will assist in determining the success of a Surf/Icecream. 
 
 ## Results: 
