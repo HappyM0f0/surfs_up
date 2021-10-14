@@ -14,7 +14,7 @@ The three key differences in weather between June and December:
 
 ## Summary:
 
-Analyzed months show air temperature differences between Dec and June do not vary greatly, and 71 degrees or more water temperture is typical surfing weather requiring no wetsuit or just a 1-2mm top as reported by [Perfect Wetsuit](https://perfectwetsuit.com/guide/wetsuit-thickness-and-temperature-guide). This ideal weather can assist with the success of a Surf/Icecream shop as it requires less to start surfing, increase the chances of interested customers both young and old.
+Analyzed months show air temperature differences between Dec and June do not vary greatly, and 71 degrees or more water temperature is typical surfing weather requiring no wetsuit or just a 1-2mm top as reported by [Perfect Wetsuit](https://perfectwetsuit.com/guide/wetsuit-thickness-and-temperature-guide). This ideal weather can assist with the success of a Surf/Icecream shop as it requires less to start surfing, increase the chances of interested customers both young and old.
 
 Further analysis, including water temperatures in this region, can assist in predicting success. 
 
