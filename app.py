@@ -17,7 +17,7 @@ from sqlalchemy import create_engine, func
 from flask import Flask, json, jsonify
 
 # Set Up the Database
-engine = create_engine("sqlite:///hawaii.sqlite")
+engine = create_engine("sqlite:///hawaii.sqlite",connect_args={'check_same_thread': False}) # use connect_args={'check_same_thread': False} to remove same thread errors
 Base = automap_base()
 Base.prepare(engine, reflect=True)
 Measurement = Base.classes.measurement
@@ -31,12 +31,12 @@ app = Flask(__name__)
 @app.route("/")
 def welcome():
     return(
-    f"Welcome to the Climate Analysis API!"
-    f"Available Routes:"
-    f"/api/v1.0/precipitation"
-    f"/api/v1.0/stations"
-    f"/api/v1.0/tobs"
-    f"/api/v1.0/temp/start/end"
+    f"<h1>Welcome to the Climate Analysis API!</h1>"  # don't need <br/> when using h1,h2,h3 etc.
+    f"<h2>Available Routes:</h2>"
+    f"<a href=http://127.0.0.1:5000/api/v1.0/precipitation>/api/v1.0/precipitation<br/></a>" # removed "" for href to work
+    f"<a href=http://127.0.0.1:5000/api/v1.0/stations>/api/v1.0/stations<br/>" #<br/> for next line, \n does not work
+    f"<a href=http://127.0.0.1:5000/api/v1.0/tobs>/api/v1.0/tobs<br/>"
+    f"<a href=http://127.0.0.1:5000/api/v1.0/temp/2017-06-01/2017-06-30>/api/v1.0/temp/start/end<br/>"
     )
 @app.route("/api/v1.0/precipitation")
 def precipitation():
@@ -75,5 +75,5 @@ def stats(start=None, end=None):
     temps = list(np.ravel(results))
     return jsonify(temps)
 
-if __name__ =="__main__":
+if __name__ =="__main__":  #include this if you want to run the app with command: python3 app.py
     app.run(debug=True)
