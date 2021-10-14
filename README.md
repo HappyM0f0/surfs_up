@@ -14,17 +14,15 @@ The three key differences in weather between June and December:
 
 ## Summary:
 
-Analyized months show temperature deference between Dec and June do not vary greatly and is typical surfing weather requiring no wetsuit as reported by [Perfect Wetsuit](https://perfectwetsuit.com/guide/wetsuit-thickness-and-temperature-guide). 
+Analyzed months show temperature differences between Dec and June do not vary greatly, and 71 degrees or more is typical surfing weather requiring no wetsuit or just a 1-2mm top as reported by [Perfect Wetsuit](https://perfectwetsuit.com/guide/wetsuit-thickness-and-temperature-guide). This ideal weather can assist with the success of a Surf/Icecream shop as it requires less to start surfing, increase the chances of interested customers both young and old.
 
-This idea weather can assist with the success of a Surf/Icecream shop.
-
-We can look at percepitation for these monthes as this will also effect the shop
+Further expansion of the code could include precipitation data for these months, which would be the most significant barrier to customer traffic.
 
 ```python
 # find and filter percepitation for the month of June
 session.query(Measurement.prcp).filter(func.strftime("%m", Measurement.date) == "06")
 ```
-The large difference in counts can be resolved by selecting a specific station (preferred the most active). This will reduce the overall count number but bring them closer in range.
+The significant difference in counts may bias the existing data. Selecting a specific station (preferred the most active) will reduce the overall count number but bring them closer in range, reducing bias.
 
 ```python
 # filter to station to most active station
