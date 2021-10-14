@@ -1,13 +1,13 @@
 # Surfs Up
 ## Overview of the analysis:
-The purpose of this analysis is to gather information on the temperatures during the month of June and December. Finding this summary statistics will assist in determining the success of a Surf/Icecream shop. 
+This analysis aims to gather information on temperatures during June and December. Finding this summary statistics will assist in determining the success of a Surf/Icecream shop. 
 
 ## Results: 
 The three key differences in weather between June and December:
 
-- the count of June temperatures are 1700 where December's count is 1517
-- the avg temp in June is 75 where in December it is 71 
-- the range of June temperatures are between 64 and 85 where in December the range is largers, between 56 and 83
+- the count of June temperatures are 1700, where December's count is 1517
+- the avg temp in June is 75, wherein December it is 71 
+- the range of June temperatures are between 64 and 85, wherein December the range is larger, between 56 and 83
 - ![June Summary](https://github.com/HappyM0f0/surfs_up/blob/main/images/June_description.png)
 ![December Summary](https://github.com/HappyM0f0/surfs_up/blob/main/images/Dec_description.png)
 
