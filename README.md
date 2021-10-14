@@ -13,9 +13,10 @@ The three key differences in weather between June and December:
 
 
 ## Summary:
-- Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
 
-We can see that for our analyized months the temperature deference bewteen Dec and June do not vary greatly and is typical  good surfing weather. This idea weather can assist with the success of a Surf/Icecream shop.
+Analyized months show temperature deference between Dec and June do not vary greatly and is typical surfing weather requiring no wetsuit as reported by [Perfect Wetsuit](https://perfectwetsuit.com/guide/wetsuit-thickness-and-temperature-guide). 
+
+This idea weather can assist with the success of a Surf/Icecream shop.
 
 We can look at percepitation for these monthes as this will also effect the shop
 
